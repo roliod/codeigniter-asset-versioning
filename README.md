@@ -28,5 +28,5 @@ $config['asset_version'] = 1; (Change this number whenever you make an update to
 
 ## Usage
 
-* CSS: <link href="<?php echo version_url('path/to/css/file') ?>" rel="stylesheet" type="text/css" />
-* JS: <script src="<?php echo version_url('path/to/js/file') ?>" type="text/javascript"></script>
+* CSS: `<link href="<?php echo version_url('path/to/css/file') ?>" rel="stylesheet" type="text/css" />`
+* JS: `<script src="<?php echo version_url('path/to/js/file') ?>" type="text/javascript"></script>`
