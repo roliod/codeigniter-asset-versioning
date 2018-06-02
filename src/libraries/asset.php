@@ -12,12 +12,12 @@
 class asset extends CI_Model
 {
 
-     public function version_url($path = '')
-     {
-        $base_url = $this->config->item('base_url');
-        $version = filemtime(FCPATH . $path);
+  public function version_url($path = '')
+  {
+    $base_url = $this->config->item('base_url');
+    $version = filemtime(FCPATH . $path);
 
-        return $base_url . '/' . $path . '?v=' . $version;
-     }
+    return $base_url . '/' . $path . '?v=' . $version;
+  }
 
 }
