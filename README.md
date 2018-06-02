@@ -15,7 +15,7 @@ _You are not obliged to move the `composer.phar` file to your `/usr/local/bin`, 
 Add the following to your require block in `composer.json` config
 
 ```json
-"roduberu/codeigniter-asset-versioning": "~1.0.0"
+"roduberu/codeigniter-asset-versioning": "^1.0"
 ```
 
 __If your new to composer and have no clue what I'm talking about__
@@ -25,7 +25,7 @@ Just create a file named `composer.json` in your document root:
 ```json
 {
     "require": {
-        "roduberu/codeigniter-asset-versioning": "~1.0.0"
+        "roduberu/codeigniter-asset-versioning": "^1.0"
     }
 }
 ```
