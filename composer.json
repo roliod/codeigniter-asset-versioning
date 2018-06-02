@@ -1,0 +1,22 @@
+{
+    "name": "roliod/codeigniter-asset-versioning",
+    "description": "This package can be used to force browser refresh of assets when cached in the users browser utilising an asset versioning technique.",
+    "keywords": ["codeigniter", "asset-versioning", "assets"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Oduberu",
+            "email": "rolandoduberu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "scripts": {
+        "post-package-install": [
+            "php -r \"file_exists('application/helpers/asset_helper.php') || copy('roliod/codeigniter-asset-versioning/src/helpers/asset_helper.php', 'application/helpers/asset_helper.php');\"",
+            "php -r \"file_exists('application/libraries/asset.php') || copy('roliod/codeigniter-asset-versioning/src/libraries/asset.php', 'application/libraries/asset.php');\""
+        ]
+    }
+}
