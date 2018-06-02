@@ -30,13 +30,19 @@ Just create a file named `composer.json` in your document root:
 }
 ```
 
+Now let's install!
+
 ```
 composer install
 ```
 
-That's all !
+You can also install by using:
 
-# This method should be used instead of 'composer require'
+```
+composer require roliod/codeigniter-asset-versioning
+```
+
+That's all !
 
 ## Installation (Manual)
 
