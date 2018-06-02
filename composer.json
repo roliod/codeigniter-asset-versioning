@@ -14,7 +14,7 @@
     "php": ">=5.4.0"
   },
   "scripts": {
-    "post-package-install": [
+    "post-install-cmd": [
       "php -r \"file_exists('application/helpers/asset_helper.php') || copy('vendor/roliod/codeigniter-asset-versioning/src/helpers/asset_helper.php', 'application/helpers/asset_helper.php');\"",
       "php -r \"file_exists('application/libraries/asset.php') || copy('vendor/roliod/codeigniter-asset-versioning/src/libraries/asset.php', 'application/libraries/asset.php');\""
     ]
