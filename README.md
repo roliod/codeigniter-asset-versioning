@@ -1,5 +1,5 @@
 # codeigniter-asset-versioning
-This package can be used to force browser refresh of assets when cached in the users browser utilizing an asset versioning technique.
+This package can be used to force browser refresh of assets when cached in the users browser utilising an asset versioning technique. The version number used is the assets last modified timestamp.
 
 ## Installation (Files)
 
@@ -25,8 +25,6 @@ The config file is located at application/config/
 * add a 'asset_version' config
 
 `$config['base_url'] = 'https://mywebsite.com'`
-
-`$config['asset_version'] = 1;` (Change this number whenever you make an update to an asset file)
 
 ## Usage
 
