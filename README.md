@@ -15,7 +15,7 @@ _You are not obliged to move the `composer.phar` file to your `/usr/local/bin`, 
 Add the following to your require block in `composer.json` config
 
 ```json
-"roduberu/codeigniter-asset-versioning": "^1.0"
+"roliod/codeigniter-asset-versioning": "^1.0"
 ```
 
 __If your new to composer and have no clue what I'm talking about__
@@ -25,12 +25,12 @@ Just create a file named `composer.json` in your document root:
 ```json
 {
     "require": {
-        "roduberu/codeigniter-asset-versioning": "^1.0"
+        "roliod/codeigniter-asset-versioning": "^1.0"
     }
 }
 ```
 
-Now let's install!
+Now let's install the package:
 
 ```
 composer install
@@ -42,6 +42,11 @@ You can also install by using:
 composer require roliod/codeigniter-asset-versioning
 ```
 
+Lastly, run this command when the package has been successfully installed:
+
+```
+php vendor/roliod/codeigniter-asset-versioning/install.php
+```
 That's all !
 
 ## Installation (Manual)
