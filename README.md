@@ -36,6 +36,12 @@ Now let's install!
 composer install
 ```
 
+You can also install by using:
+
+```
+composer require roliod/codeigniter-asset-versioning
+```
+
 That's all !
 
 ## Installation (Manual)

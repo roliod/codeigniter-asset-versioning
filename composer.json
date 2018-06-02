@@ -10,7 +10,6 @@
             "email": "rolandoduberu@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0"
     },
@@ -19,5 +18,10 @@
             "php -r \"file_exists('application/helpers/asset_helper.php') || copy('roliod/codeigniter-asset-versioning/src/helpers/asset_helper.php', 'application/helpers/asset_helper.php');\"",
             "php -r \"file_exists('application/libraries/asset.php') || copy('roliod/codeigniter-asset-versioning/src/libraries/asset.php', 'application/libraries/asset.php');\""
         ]
+    },
+    "extra": {
+    "branch-alias": {
+        "dev-master": "1.0.0"
     }
+}
 }
