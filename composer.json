@@ -3,7 +3,7 @@
   "description": "This package can be used to force browser refresh of assets when cached in the users browser utilising an asset versioning technique.",
   "keywords": ["codeigniter", "asset-versioning", "assets"],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "Roland Oduberu",
@@ -15,7 +15,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.0.1-dev"
+      "dev-master": "1.0.2-dev"
     }
   }
 }
